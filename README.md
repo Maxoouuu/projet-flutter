@@ -1,3 +1,7 @@
+# Consigne
+
+Faire une application Flutter qui utilise une API 
+
 # projet
 
 Ce projet est une application Flutter qui permet de gérer une liste de tâches. L'utilisateur peut voir la liste des tâches existantes, ajouter de nouvelles tâches, supprimer des tâches et marquer des tâches comme terminées. Lorsqu'une tâche est marquée comme terminée, l'application affiche une blague de Chuck Norris en guise de "félicitation". L'application utilise l'API "Chuck Norris Jokes" (https://api.chucknorris.io) pour récupérer les blagues de Chuck Norris à afficher lorsque les tâches sont terminées.
@@ -33,7 +37,7 @@ samples, guidance on mobile development, and a full API reference.
 
 **Gestion de la navigation** : Pour la gestion de la navigation, j'ai opté pour l'utilisation des fonctions Navigator.push et Navigator.pop car elles sont simples et directes à utiliser. Dans ce projet, nous avons seulement besoin de naviguer entre deux écrans, et ces fonctions fournissent une solution suffisamment élégante pour cette tâche. Cependant, pour des applications plus grandes avec des routes plus complexes, des packages de gestion de la navigation tels que flutter_bloc ou routemaster pourraient être envisagés pour une gestion plus avancée de la navigation.
 
-**API de blagues** : J'ai choisi l'API Chuck Norris pour fournir des blagues lorsqu'une tâche est cochée. L'API est simple à utiliser et fournit des données intéressantes. Si nécessaire, d'autres API de blagues ou de données pourraient être facilement intégrées à la place pour offrir une plus grande variété de contenu.
+**API de blagues** : J'ai choisi l'API Chuck Norris pour fournir des blagues lorsqu'une tâche est cochée. L'API est simple à utiliser et fournit peu de données. Si nécessaire, d'autres API de blagues ou de données pourraient être facilement intégrées à la place pour offrir une plus grande variété de contenu.
 
 **Design et mise en page** : Le projet utilise une mise en page simple avec une liste de tache et des boutons de modification, d'ajout et de suppression. Des améliorations supplémentaires pourraient être apportées au design en utilisant des packages de conception tels que flutter_bloc ou en personnalisant davantage les widgets pour une interface plus esthétique et personnalisée.
 
