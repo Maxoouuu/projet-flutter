@@ -131,6 +131,12 @@ class _TaskListState extends State<TaskList> {
     }
   }
 
+  void _toggleTaskCompletion(Task task) {
+    setState(() {
+      task.isCompleted = !task.isCompleted;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -148,11 +154,10 @@ class _TaskListState extends State<TaskList> {
                   leading: Checkbox(
                     value: task.isCompleted,
                     onChanged: (value) {
-                      setState(() {
-                        if (value == true) {
-                          _showChuckNorrisJoke(task);
-                        }
-                      });
+                      _toggleTaskCompletion(task); // Appel de la fonction pour changer l'état de complétion de la tâche.
+                      if (value == true) {
+                        _showChuckNorrisJoke(task);
+                      }
                     },
                   ),
                   title: Text(
