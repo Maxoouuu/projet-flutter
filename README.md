@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## justification des choix 
+
+Dans le code que j'ai fourni, j'ai utilisé StatefulWidget (_TaskListState) car nous voulons gérer l'état des tâches (par exemple, les tâches complétées) et que certaines parties de l'interface utilisateur doivent être mises à jour en réponse aux changements d'état (par exemple, lorsque nous cochons une case pour marquer une tâche comme terminée).
+
+J'ai également utilisé StatefulWidget pour la classe AddTaskForm, car nous voulons gérer l'état du champ de texte où l'utilisateur entre de nouvelles tâches. Lorsque nous appuyons sur le bouton "Ajouter", l'état du champ de texte doit être réinitialisé (effacer le texte entré) pour permettre à l'utilisateur d'entrer une nouvelle tâche.
+
+En résumé, nous utilisons StatefulWidget lorsque nous avons besoin de gérer l'état de notre application et que certaines parties de l'interface utilisateur doivent être mises à jour en réponse aux changements d'état. Si une partie de l'interface utilisateur ne change pas ou n'a pas besoin d'être redessinée en réponse aux changements d'état, nous pouvons utiliser StatelessWidget.
