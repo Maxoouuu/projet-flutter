@@ -4,12 +4,15 @@ Ce projet est une application Flutter qui permet de gérer une liste de tâches.
 
 ## Exemple de réponse de l'API
 
-``{
+
+```
+{
 "icon_url" : "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
 "id" : "he6TQwBBTDK-LHIEjO79oQ",
 "url" : "",
 "value" : "How many roads must a man walk down, before you can call him a man? Don't ask Chuck Norris, he was considered a man by age four."
-}``
+}
+```
 
 ## Getting Started
 
