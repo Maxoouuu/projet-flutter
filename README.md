@@ -24,7 +24,7 @@ Ce projet est une application Flutter qui permet de gérer une liste de tâches.
 
 puis 
 
-`flutter pub get`
+`flutter run`
 
 ### Lancement du test de ce projet 
 
